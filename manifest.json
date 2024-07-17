@@ -1,0 +1,15 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "Remove Bookmark Names",
+  "version": "1.0",
+  "description": "Removes the names of all bookmarks.",
+  "permissions": [
+    "bookmarks"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
+
